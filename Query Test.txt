@@ -1,0 +1,27 @@
+1. CREATE DATABASE flipkart
+
+2. CREATE TABLE feedback (id int PRIMARY KEY AUTO_INCREMENT)
+
+3. ALTER TABLE feedback ADD name varchar(255)
+
+4. ALTER TABLE feedback ADD surname varchar(255)
+
+5. ALTER TABLE feedback ADD email varchar(255)
+
+6. ALTER TABLE feedback ADD feedback varchar(255)
+
+7. ALTER TABLE feedback ADD rating int
+  
+8. ALTER TABLE feedback MODIFY city varchar(255)
+
+9. INSERT INTO feedback (name,surname,email,feedback,rating,city) VALUES ('Aayush','Patel','aayush@gmail.com','great','3','rajkot')
+
+10. DELETE FROM feedback WHERE id='4'
+
+11. SELECT rating FROM feedback ORDER BY rating DSC
+
+12. SELECT name FROM feedback ORDER BY rating
+
+13. TRUNCATE TABLE feedback 
+
+14. DROP TABLE feedback
